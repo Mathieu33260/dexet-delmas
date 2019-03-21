@@ -666,3 +666,7 @@ footer .center-c{
 .sticky-margin-left {
   margin-left: 100px;
 }
+
+.side h3 {
+    color: #c18a62 !important;
+}
