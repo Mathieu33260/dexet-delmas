@@ -441,10 +441,8 @@ form .sub{
 
 /* FOOTER */
 
-footer .bar-footer{
-  width:100%;
-  height:50px;
-  background:#c18a62;
+footer {
+  background-color: black;
 }
 
 .center-footer{
@@ -452,7 +450,9 @@ footer .bar-footer{
   height:auto;
   display: flex;
   justify-content: space-around;
-  margin:60px auto;
+  margin:0 auto 0 auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .center-footer .side{
@@ -574,9 +574,10 @@ footer .center-c{
     padding:16px 0;
   }
 
-.form{
-  margin-top:40px;
-}
+  .form{
+    margin-top:40px;
+  }
+
   form{
     display: block;
   }
@@ -595,6 +596,14 @@ footer .center-c{
     height:auto;
     padding:50px 0px;
     margin-bottom:25px;
+  }
+
+  .intro {
+    display: block;
+  }
+
+  .intro p, .intro h2 {
+    width: 100%;
   }
 }
 

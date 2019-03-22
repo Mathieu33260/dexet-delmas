@@ -10,6 +10,7 @@
 
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="slick/slick.css">
@@ -220,8 +221,6 @@
 
 <footer>
 
-    <div class="bar-footer"></div>
-
     <div class="center-footer">
         <div class="side">
             <div class="rs">
@@ -309,6 +308,20 @@
         var h = $(this).attr('data-default');
         $(this).animate({ height: h }, 'slow');
     });
+
+    function offsetAnchor() {
+        if (location.hash.length !== 0) {
+            window.scrollTo(window.scrollX, window.scrollY - 200);
+        }
+    }
+
+    $(document).on('click', 'a[href^="#"]', function(event) {
+        window.setTimeout(function() {
+            offsetAnchor();
+        }, 0);
+    });
+
+    window.setTimeout(offsetAnchor, 0);
 
 </script>
 
