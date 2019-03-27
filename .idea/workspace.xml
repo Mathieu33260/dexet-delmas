@@ -4,19 +4,6 @@
     <list default="true" id="aab84c61-f773-4ea1-a8d8-e9ac803e7592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galerie/photo-9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="306">
+              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7060">
-              <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
+            <state relative-caret-position="409">
+              <caret line="662" column="23" selection-start-line="662" selection-start-column="23" selection-end-line="662" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,7 +56,6 @@
       <find>galer</find>
       <find>right-bottom</find>
       <find>right-top</find>
-      <find>nav</find>
       <find>header nav</find>
       <find>input</find>
       <find>header na</find>
@@ -84,6 +70,12 @@
       <find>body</find>
       <find>center-courses</find>
       <find>slid</find>
+      <find>sub-header</find>
+      <find>logo</find>
+      <find>.intro</find>
+      <find>nav</find>
+      <find>a img</find>
+      <find>mail</find>
     </findStrings>
     <replaceStrings>
       <replace>jpg</replace>
@@ -97,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/plugins.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -184,7 +176,7 @@
       <workItem from="1553194210319" duration="1666000" />
       <workItem from="1553277526409" duration="3721000" />
       <workItem from="1553517708619" duration="4894000" />
-      <workItem from="1553710236728" duration="595000" />
+      <workItem from="1553710236728" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1553160884389</created>
@@ -207,11 +199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553283444540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="retour premiere partie">
+      <created>1553716950851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553716950851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24684000" />
+    <option name="totallyTimeSpent" value="26946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -245,7 +244,8 @@
     <MESSAGE value="v2" />
     <MESSAGE value="v3" />
     <MESSAGE value="add openstreetmap map" />
-    <option name="LAST_COMMIT_MESSAGE" value="add openstreetmap map" />
+    <MESSAGE value="retour premiere partie" />
+    <option name="LAST_COMMIT_MESSAGE" value="retour premiere partie" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/lampe.svg">
@@ -261,25 +261,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7060">
-          <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="662" column="23" selection-start-line="662" selection-start-column="23" selection-end-line="662" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -68,6 +68,10 @@ header nav ul li a img{
   top:7px;
 }
 
+header a img, header > a{
+    display: none;
+}
+
 header p{
 
 }
@@ -646,6 +650,23 @@ footer .center-c{
     width:150px;
     margin-top:25px;
   }
+
+    header a img{
+        display: block;
+        width:30px;
+        height:auto;
+        position: relative;
+        top:7px;
+    }
+
+    header > a {
+        display: block;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 625px){
@@ -660,6 +681,16 @@ footer .center-c{
 
   .logo{
     margin-top:125px;
+  }
+
+  #secondary-logo {
+      width: 100%;
+      margin-bottom: 100px;
+  }
+
+  .sub-header {
+      width: 100%;
+      justify-content: space-around
   }
 }
 

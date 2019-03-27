@@ -63,6 +63,8 @@
         </ul>
 
     </nav>
+    <a href="mailto:contact@dexetdelmas.fr"><img src="./img/email.png" alt=""></a>
+    <a href="tel:+33662725673"><img src="./img/phone.svg" alt=""></a>
 </header>
 
 <div class="menuOne">
@@ -78,7 +80,7 @@
 </div>
 
 <section class="mid-all">
-    <img src="./img/logoseul.png" alt="" class="logo">
+    <img src="./img/logoseul.png" alt="" class="logo" id="secondary-logo">
 
     <div class="sub-header">
         <p>Aquitaine - Dordogne - Charente maritime - Paris</p>
