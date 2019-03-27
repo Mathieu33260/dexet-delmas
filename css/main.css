@@ -281,7 +281,7 @@ header p{
 
 .center-courses .side{
   width:31%;
-  height:300px;
+  height:350px;
   background:#0c384e;
 }
 
@@ -301,6 +301,8 @@ header p{
 .center-courses .side p{
   text-align: center;
   color:white;
+  margin: auto;
+  width: 80%;
 }
 
 .center-courses .side p span{
@@ -349,6 +351,7 @@ header p{
   width: 30%;
   height: 30%;
   margin-top: 4%;
+  cursor: pointer;
 }
 
 /* Contact */

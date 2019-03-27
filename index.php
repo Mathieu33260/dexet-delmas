@@ -45,7 +45,7 @@
     </script>
 </head>
 
-<body>
+<body id="body">
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -60,8 +60,6 @@
             <li><a href="#cours">cours</a></li>
             <li><a href="#galerie">galerie</a></li>
             <li><a href="#contact">contact</a></li>
-            <li class="li-none"><a href="#"><img src="./img/email.png" alt=""></a></li>
-            <li class="li-none"><a href="#"><img src="./img/phone.svg" alt=""></a></li>
         </ul>
 
     </nav>
@@ -83,7 +81,7 @@
     <img src="./img/logoseul.png" alt="" class="logo">
 
     <div class="sub-header">
-        <p>Arcachon - La Rochelle - Paris</p>
+        <p>Aquitaine - Dordogne - Charente maritime - Paris</p>
     </div>
 
     <div class="intro">
@@ -100,10 +98,11 @@
 
     <div class="slider">
         <div class="single-item">
-            <div style="background:url('./img/slider/slide-1.jpeg') center center / cover;"></div>
-            <div style="background:url('./img/slider/slide-2.jpeg') center center / cover;"></div>
-            <div style="background:url('./img/slider/slide-3.jpeg') center center / cover;"></div>
-            <div style="background:url('./img/slider/slide-4.jpeg') center center / cover;"></div>
+            <div style="background:url('./img/slider/Tapissier_decorateur_Photographe_corporate_d_entreprise-a-Bordeaux-en-Gironde-www-photographe-33-Christophe_B-_MG_9505.jpg') center center / cover;"></div>
+            <div style="background:url('./img/slider/Tapissier_decorateur_Photographe_corporate_d_entreprise-a-Bordeaux-en-Gironde-www-photographe-33-Christophe_B-_MG_9599.jpg') center center / cover;"></div>
+            <div style="background:url('./img/slider/Tapissier_decorateur_Photographe_corporate_d_entreprise-a-Bordeaux-en-Gironde-www-photographe-33-Christophe_B-_MG_9745.jpg') center center / cover;"></div>
+            <div style="background:url('./img/slider/Tapissier_decorateur_Photographe_corporate_d_entreprise-a-Bordeaux-en-Gironde-www-photographe-33-Christophe_B-_MG_9786.jpg') center center / cover;"></div>
+            <div style="background:url('./img/slider/Tapissier_decorateur_Photographe_corporate_d_entreprise-a-Bordeaux-en-Gironde-www-photographe-33-Christophe_B-_MG_9867.jpg') center center / cover;"></div>
         </div>
     </div>
     <!-- END SLIDER -->
@@ -116,19 +115,20 @@
 
             <h2>À propos</h2>
 
-            <img src="./img/photo.png" alt="">
+            <img src="./img/a-prorpos.jpg" alt="">
 
         </div>
 
         <div class="side">
-            <p>Située au cœur du village de Guîtres sous le clocher de l’abbatiale,
-                l’atelier-boutique Dexet & Delmas est née de l’expérience de couturière et de
+            <p>Situé au cœur du village de Guîtres sous le clocher de l’abbatiale,
+                l’atelier-boutique Dexet & Delmas est né de l’expérience de couturière et de
                 tapissière d’Aurélie Delmas, artisan d’art depuis 10 ans, et de Cédric Dexet tapissier,
-                sculpteur sur pierre et maroquinier depuis plus de 15ans.<br><br>
+                sculpteur sur pierre et maroquinier depuis plus de 15 ans.<br>
                 Un savoir faire « made in France » entre tradition et modernité qu’ils font partager
-                lors des cours à l’atelier dans un esprit convivial.<br><br>
+                lors des cours à l’atelier dans un esprit convivial.<br>
                 En couple dans le privé et à l’atelier, ils sont tous les deux plusieurs fois diplômés et
-                ont une solide expérience de leurs domaines : artisan d’art, conseil, formation, vente et gestion</p>
+                ont une solide expérience de leurs domaines : artisan d’art, conseil, formation, vente et gestion
+            </p>
         </div>
 
     </div>
@@ -140,7 +140,7 @@
     <div class="center-courses" id="cours">
         <div class="side">
             <img src="./img/siege.svg" alt="">
-            <h3>Tapisserie
+            <h3>Tapisserie<br>
                 d’ameublement</h3>
             <p>Réfection de tous types d’assise,
                 tête de lit, coussins, tissu tendu,
@@ -154,9 +154,11 @@
         </div>
         <div class="side">
             <img src="./img/pinceau.svg" alt="">
-            <h3>Cours et Stage</h3>
+            <h3>Cours et Stages</h3>
             <p>Lundi et le jeudi | <span>2x par mois</span></p>
             <p>14h00 à 19h00</p>
+            <p>Vendredi</p>
+            <p>14h00 à 17h00</p>
             <p>Samedi</p>
             <p>9h30 à 12h30</p>
             <p>Stage à la demande.</p>
@@ -174,27 +176,45 @@
 
     <div id="galerie">
         <div class="sub-galerie">
-            <img src="img/galerie/photo-1.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-2.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-3.jpeg" alt="photo galerie"/>
+            <img src="img/galerie/photo-1.jpg" name="1" alt="photo galerie"/>
+            <img src="img/galerie/photo-2.jpg" name="2" alt="photo galerie"/>
+            <img src="img/galerie/photo-3.jpg" name="3" alt="photo galerie"/>
         </div>
 
         <div class="sub-galerie">
-            <img src="img/galerie/photo-4.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-5.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-6.jpeg" alt="photo galerie"/>
+            <img src="img/galerie/photo-4.jpg" name="4" alt="photo galerie"/>
+            <img src="img/galerie/photo-5.jpg" name="5" alt="photo galerie"/>
+            <img src="img/galerie/photo-6.jpg" name="6" alt="photo galerie"/>
         </div>
 
         <div class="sub-galerie">
-            <img src="img/galerie/photo-7.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-8.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-9.jpeg" alt="photo galerie"/>
+            <img src="img/galerie/photo-7.jpg" name="7" alt="photo galerie"/>
+            <img src="img/galerie/photo-8.jpg" name="8" alt="photo galerie"/>
+            <img src="img/galerie/photo-9.jpg" name="9" alt="photo galerie"/>
         </div>
 
         <div class="sub-galerie">
-            <img src="img/galerie/photo-10.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-11.jpeg" alt="photo galerie"/>
-            <img src="img/galerie/photo-12.jpeg" alt="photo galerie"/>
+            <img src="img/galerie/photo-10.jpg" name="10" alt="photo galerie"/>
+            <img src="img/galerie/photo-11.jpg" name="11" alt="photo galerie"/>
+            <img src="img/galerie/photo-12.jpg" name="12" alt="photo galerie"/>
+        </div>
+
+        <div class="sub-galerie">
+            <img src="img/galerie/photo-13.jpg" name="13" alt="photo galerie"/>
+            <img src="img/galerie/photo-14.jpg" name="14" alt="photo galerie"/>
+            <img src="img/galerie/photo-15.jpg" name="15" alt="photo galerie"/>
+        </div>
+
+        <div class="sub-galerie">
+            <img src="img/galerie/photo-16.jpg" name="16" alt="photo galerie"/>
+            <img src="img/galerie/photo-17.jpg" name="17" alt="photo galerie"/>
+            <img src="img/galerie/photo-18.jpg" name="18" alt="photo galerie"/>
+        </div>
+
+        <div class="sub-galerie">
+            <img src="img/galerie/photo-19.jpg" name="19" alt="photo galerie"/>
+            <img src="img/galerie/photo-20.jpg" name="20" alt="photo galerie"/>
+            <img src="img/galerie/photo-21.jpg" name="21" alt="photo galerie"/>
         </div>
     </div>
 
@@ -350,6 +370,34 @@
     });
 
     window.setTimeout(offsetAnchor, 0);
+
+    $('#galerie img').on('click', function (event) {
+        var img = document.createElement('img');
+        var div = document.createElement('div');
+        document.getElementById('galerie').append(div);
+        div.style.position = 'fixed';
+        div.style.top = '0';
+        div.style.left = '0';
+        div.style.backgroundColor = 'black';
+        div.style.opacity = '0.7';
+        div.style.width = '100%';
+        div.style.height = '100%';
+        document.getElementById('galerie').append(img);
+        img.src = "img/galerie/clique-" + event.target.getAttribute('name') + ".jpeg";
+        img.style.position = 'fixed';
+        img.style.left = '30%';
+        img.style.top = '15%';
+        img.style.width = '400px';
+        img.style.height = 'auto';
+        img.addEventListener('click', function (evt) {
+            img.parentNode.removeChild(img);
+            div.parentNode.removeChild(div);
+        });
+        div.addEventListener('click', function (evt) {
+            div.parentNode.removeChild(div);
+            img.parentNode.removeChild(img);
+        });
+    });
 
 </script>
 

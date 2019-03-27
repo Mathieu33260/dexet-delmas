@@ -4,7 +4,19 @@
     <list default="true" id="aab84c61-f773-4ea1-a8d8-e9ac803e7592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galerie/photo-9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="313" column="64" selection-start-line="313" selection-start-column="64" selection-end-line="313" selection-end-column="64" />
+            <state relative-caret-position="400">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -27,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="601" column="19" selection-start-line="601" selection-start-column="19" selection-end-line="601" selection-end-column="19" />
+            <state relative-caret-position="7060">
+              <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -66,9 +78,16 @@
       <find>footer</find>
       <find>propos</find>
       <find>intro</find>
-      <find>center-courses</find>
       <find>media</find>
+      <find>photo</find>
+      <find>jpeg</find>
+      <find>body</find>
+      <find>center-courses</find>
+      <find>slid</find>
     </findStrings>
+    <replaceStrings>
+      <replace>jpg</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +96,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/plugins.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
@@ -111,18 +131,6 @@
               <item name="dewet-delmas" type="b2602c69:ProjectViewProjectNode" />
               <item name="dewet-delmas" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dewet-delmas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dewet-delmas" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="galerie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dewet-delmas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dewet-delmas" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="slider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dewet-delmas" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +182,9 @@
       <workItem from="1552934542604" duration="675000" />
       <workItem from="1553155979072" duration="3942000" />
       <workItem from="1553194210319" duration="1666000" />
-      <workItem from="1553277526409" duration="1855000" />
+      <workItem from="1553277526409" duration="3721000" />
+      <workItem from="1553517708619" duration="4894000" />
+      <workItem from="1553710236728" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1553160884389</created>
@@ -183,17 +193,31 @@
       <option name="project" value="LOCAL" />
       <updated>1553160884389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v3">
+      <created>1553279499446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553279499446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add openstreetmap map">
+      <created>1553283444540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553283444540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17329000" />
+    <option name="totallyTimeSpent" value="24684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +243,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+    <MESSAGE value="v3" />
+    <MESSAGE value="add openstreetmap map" />
+    <option name="LAST_COMMIT_MESSAGE" value="add openstreetmap map" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/lampe.svg">
@@ -228,25 +254,32 @@
     <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="601" column="19" selection-start-line="601" selection-start-column="19" selection-end-line="601" selection-end-column="19" />
+        <state relative-caret-position="227">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="313" column="64" selection-start-line="313" selection-start-column="64" selection-end-line="313" selection-end-column="64" />
+        <state relative-caret-position="400">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7060">
+          <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
